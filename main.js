@@ -2,7 +2,7 @@ function listButt() {
 
     let ujTeendo=document.getElementById("ujTeendo").value;
     if (ujTeendo=="") {
-        alert("a beviteli mező nem lehet üres!");
+        alert("A beviteli mezőt kérem töltse ki!");
         return;
     }
     else{
@@ -23,6 +23,8 @@ function listButt() {
         span.innerHTML +=ujTeendo;
         li.appendChild(span);
         li.appendChild(sp);
+        
+        li.classList.add("list-group-item");
 
         input.addEventListener("click", athuzas);
         

@@ -7,18 +7,24 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="container-fluid">
+<div class="container my-5">
 
-    <div >
-        <h3>Things I've Gotta Get Done</h3>
-        <ul id="list"></ul>
+    <div id="egy">
+        <h5>Things I've Gotta Get Done</h5>
+        <ul id="list" class="list-group list-group-flush"></ul>
     </div>
 
-    <div>
-        <input type="text" placeholder="What do you need to do today?" id="ujTeendo">
-        <button id="listButt">Add to List</button>
+    <div id="ketto"  class="row">
+        <input class="col-9"type="text" placeholder="What do you need to do today?" id="ujTeendo">
+        <button class="col-3 btn btn-dark" id="listButt">Add to List</button>
     </div>
-    
+</div>    
 </body>
 </html>

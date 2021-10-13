@@ -5,3 +5,9 @@ span:nth-child(2n-1){
     float: right;
 
 }
+#ketto{
+    background-color: black;
+}
+span{
+    margin: auto 10px;
+}
